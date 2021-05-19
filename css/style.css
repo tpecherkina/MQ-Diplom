@@ -301,11 +301,10 @@ body {
   color: #b59f5b;
 }
 .btn-menu {
-	display: flex;
-	align-items: center;
+  display: none;
+	
 }
 .burger{
 	fill: white;
-	width: 4rem;
-	height: 4rem;
+	
 }

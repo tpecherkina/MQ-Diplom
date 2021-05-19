@@ -35,6 +35,8 @@
         display: none;
     }
     .btn-menu{
+        display: flex;
+	align-items: center;
         position: absolute;
         top: 50px;
         right: 50px;
@@ -119,12 +121,6 @@
         width: 100%;
 	}
 
-    .title-name{
-        width: 50%;
-        font-size: 30px;
-        margin-top: 140px;
-        align-self: center;
-    }
 
 	.header-logo {
 		width: 270px;
@@ -141,7 +137,8 @@
     }
 
 	.header-title {
-		padding-bottom: 220px;
+		padding-bottom: 240px;
+        padding-top: 20px; 
 		margin-top: 0;
 		font-size: 3.25rem; 
 	}
@@ -173,6 +170,8 @@
          
         }
         .btn-menu{
+            display: flex;
+	align-items: center;
             position: absolute;
             top: 50px;
             right: 50px;
