@@ -10,7 +10,7 @@
     .header {
         background-image: url(../images/banner-bg-tablet.jpg);
         width: 100%; 
-        max-width: 768px;
+    
     }
   
     .header-logo {
@@ -34,6 +34,7 @@
     .menu-list {
         display: none;
     }
+	
     .btn-menu{
         display: flex;
 	align-items: center;
@@ -65,11 +66,13 @@
     width: 100%;
     justify-content:center;
   }
+	
   .trend_group{
     margin: 0;
     display: flex;
     flex-wrap: wrap;
   }
+	
    .trend_card {
 		width: 49%;
 		margin-top: 0.5%; 
@@ -88,7 +91,7 @@
         font-size: 14px;
         line-height: 40px;
     }
-  /*stopped here */ 
+
     .trend-name {
         font-size: 17px;
         line-height: 22px;
