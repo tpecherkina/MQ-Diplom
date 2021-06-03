@@ -62,7 +62,7 @@ body {
   line-height: 30px;
   color: black;
   font-weight: 700;
- 
+
 }
 
 .trend-label:after {
@@ -104,7 +104,7 @@ body {
   position: relative;
   width: 100%;
   height: 320px;
-  
+
 }
 
 .trend-preview-life {
@@ -120,7 +120,7 @@ body {
   position: relative;
   width: 100%;
   height: 320px;
- 
+
 }
 
 .trend-preview-travel {
@@ -167,7 +167,7 @@ body {
   bottom: 0;
   width: 100%;
   opacity: 0.5;
-  
+
 }
 
 .trend-description {
@@ -179,7 +179,7 @@ body {
   max-width: 90%;
   max-height: 145px;
   border: 3px solid #b59f5b;
- 
+
 }
 
 .trend-type {
@@ -188,7 +188,7 @@ body {
   font-size: 14px;
   line-height: 40px;
   color: #b59f5b;
-  
+
 }
 
 .trend-name {
@@ -198,7 +198,7 @@ body {
   line-height: 25px;
   color: #ffffff;
   font-weight: 700;
-  
+
 }
 
 .menu-and-logo {
@@ -245,7 +245,7 @@ body {
   width: 100%;
   position: relative;
   z-index: 0;
-  
+
 }
 
 .header::after {
@@ -302,11 +302,11 @@ body {
 }
 .btn-menu {
   display: none;
-	
+
 }
 .burger{
 	fill: white;
-	
+
 }
 
 
@@ -317,12 +317,26 @@ body {
 }
 
 .content-wrapper {
-  width: 1200px;
+  /* width: 1200px; */
+  max-width: 1200px;
   margin: auto;
   padding: 0 15px;
 
   display: flex;
   justify-content: space-between;
+}
+
+@media (max-width: 1024px) {
+  .content-wrapper {
+    flex-direction: column;
+  }
+  .main-posts {
+    width: 100% !important;
+  }
+  .aside-posts,
+  .aside-post-text {
+    width: 100% !important;
+  }
 }
 
 .main-posts {
@@ -637,7 +651,7 @@ p:not(:last-child) {
   margin-left: auto;
   margin-right: auto;
   padding: 40px 15px;
-  margin-top: 300px; 
+  margin-top: 300px;
   display: flex;
   flex-wrap: wrap;
   align-items: space-between;
@@ -663,9 +677,9 @@ p:not(:last-child) {
     top: 0;
     left: 0;
     margin-top: -210px;
-    margin-left: 4em; 
+    margin-left: 4em;
     z-index: -1;
     width: 292px;
     height: 226px;
-    margin-bottom: 30px; 
+    margin-bottom: 30px;
 }
