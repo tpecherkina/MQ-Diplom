@@ -75,7 +75,7 @@
 	}
 
     .trend-description {
-        max-width: 345px;
+        width: 80%;
         max-height: 137px;
         margin-bottom: 20px;
         padding-left: 15px;
@@ -102,6 +102,11 @@
         width: 100%;
         justify-content:space-evenly;
     
+}
+
+.menu{
+   
+    display: none;
 }
 .main-posts{
     width: 74.5%; 
